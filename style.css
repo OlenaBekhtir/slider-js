@@ -1,0 +1,33 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    width: 500px;
+    height: 350px;
+    overflow: hidden;
+}
+
+.slider-line {
+    height: 350px;
+    width: 3000px;
+    display: flex;
+    position: relative; 
+    transition: all ease 1s;
+}
+
+.image {
+    width: 500px;
+    height: 350px;
+}
+
+.slider-prev {
+    margin-right: 20px;
+
+}
+
+.slider-next {
+    margin-left: 20px;
+}
